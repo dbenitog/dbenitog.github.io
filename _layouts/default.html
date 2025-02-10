@@ -15,21 +15,40 @@
 </head>
 
 <body>
+  <style>
+    .navbar {
+      display: flex;
+      justify-content: space-around;
+      padding: 1em;
+    }
+    .navbar a {
+        color: #267CB9;
+        text-decoration: none;
+        padding: 14px 20px;
+        font-size: 1.5em;
+    }
+  </style>
+
   <div class="wrapper">
     <header>
-      <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+      <h2><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h2>
+      <p text-align="center">{{ site.description | default: site.github.project_tagline }}</p>
 
       {% if site.logo %}
-      <img src="{{site.logo | relative_url}}" alt="Avatar" class="avatar"/>
+      <a href="{{ "/" | absolute_url }}">
+        <img src="{{site.logo | relative_url}}" alt="Avatar" class="avatar"/>
+      </a>
       {% endif %}
-
-      <p>{{ site.description | default: site.github.project_tagline }}</p>
 
       <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
 
     </header>
+    
     <section>
-
+      <div class="navbar">
+        <a href="/">Home</a>
+        <a href="/cv">CV</a>
+      </div>
       {{ content }}
 
     </section>
