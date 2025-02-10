@@ -31,16 +31,21 @@
 
   <div class="wrapper">
     <header>
-      <h2><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h2>
-      <p text-align="center">{{ site.description | default: site.github.project_tagline }}</p>
-
       {% if site.logo %}
       <a href="{{ "/" | absolute_url }}">
         <img src="{{site.logo | relative_url}}" alt="Avatar" class="avatar" width="90%"/>
       </a></br>
       {% endif %}
 
-      <p></br>
+      </br>
+      <a href="{{ "/" | absolute_url }}">
+        <b>{{ site.title | default: site.github.repository_name }}</b>
+      </a></br>
+      <p text-align="center">
+        <i>{{ site.description | default: site.github.project_tagline }}</i>
+      </p>
+
+      <p>
       📍 Madrid, Spain</br>
       🎓 PhD in Computer Science and Telecommunications</br>
       💼 AI Specialist at EVO Banco</br>
@@ -60,6 +65,7 @@
       <div class="navbar">
         <a href="/">Home</a>
         <a href="/cv">CV</a>
+        <a href="/pub">Publications</a>
       </div>
       {{ content }}
 
