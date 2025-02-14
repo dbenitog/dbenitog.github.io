@@ -1,5 +1,6 @@
 ---
 layout: default
+title: CV
 ---
 
 Download my CV [here](/assets/pdf/dbenitog_cv_2025.pdf).
