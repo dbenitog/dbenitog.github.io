@@ -4,14 +4,13 @@ title: Ph.D. Thesis
 ---
 
 ## Ph.D. Thesis: Multi-resolution and Source Separation for Improved Sound Event Detection based on Deep Neural Networks
-* **Author:** Diego de Benito Gorrón 
-* **Supervisor:** Doroteo Torre Toledano
+* **🔗 <a href="https://repositorio.uam.es/handle/10486/712872" target="_blank">Link to Ph.D. Dissertation</a>**
 * **Defense Date:** October 9th, 2023
-* **Institution:** Universidad Autónoma de Madrid
+* **Research Group:** <a href="https://audias.ii.uam.es/" target="_blank">Audias - Audio, Data Intelligence and Speech</a>
+* **Institution:** <a href="https://www.uam.es/" target="_blank">Universidad Autónoma de Madrid</a>
 * **Grade:** Cum Laude
-* **Dissertation:** <a href="https://repositorio.uam.es/handle/10486/712872" target="_blank">Repositorio UAM</a>
 
-The **slides** for the Ph.D. Dissertation are available **[here](/assets/pdf/thesis_slides_20231006.pdf)**. 
+The **slides** for the dissertation are available **[here](/assets/pdf/thesis_slides_20231006.pdf)**. 
 
 ---
 
