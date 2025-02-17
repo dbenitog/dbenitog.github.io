@@ -8,7 +8,8 @@
 
   {% seo %}
   <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-  <!--[if lt IE 9]>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
   {% include head-custom.html %}
@@ -19,12 +20,11 @@
     .navbar {
       display: flex;
       justify-content: space-around;
-      padding: 1em;
     }
     .navbar a {
         color: #267CB9;
         text-decoration: none;
-        padding: 14px 20px;
+        padding: 50px 5px;
         font-size: 1.5em;
     }
   </style>
@@ -39,16 +39,15 @@
 
       </br>
       <a href="{{ "/" | absolute_url }}">
-        <b>{{ site.title | default: site.github.repository_name }}</b>
+        <span class="title-name">{{ site.title | default: site.github.repository_name }}</span>
       </a></br>
-      <p text-align="center">
-        <i>{{ site.description | default: site.github.project_tagline }}</i>
-      </p>
-
       <p>
-      📍 Madrid, Spain</br>
-      🎓 PhD in Computer Science and Telecommunications</br>
-      💼 AI Specialist at EVO Banco</br>
+      <span class="subtitle">{{ site.description | default: site.github.project_tagline }}</span>
+      </p>
+      <p>
+      <span class="inline-icon material-icons">location_on</span>  Madrid, Spain</br>
+      <span class="inline-icon material-icons">school</span>  PhD in Computer Science and Telecommunications</br>
+      <span class="inline-icon material-icons">work</span>  AI Specialist at EVO Banco</br>
       </p>
 
       <a href="http://github.com/dbenitog">
