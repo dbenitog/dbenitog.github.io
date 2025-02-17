@@ -53,3 +53,21 @@
        url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.ttf') format('truetype'),
        url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.svg#NotoSans') format('svg');
 }
+
+.inline-icon {
+  vertical-align: bottom;
+  font-size: 18px !important;
+  color: #069
+}
+
+.title-name {
+  font-weight: bold;
+  font-size: 22px;
+  color: #069;
+}
+
+.subtitle {
+  font-style: italic;
+  font-size: 16px;
+  color: #666;
+}
